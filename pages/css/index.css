@@ -8,10 +8,15 @@
     margin-right: auto;
  }
 
+.img.two {
+  height: 10%;
+  width: 150%;
+}
+
  .citation {
     font-family: monospace !important;
  }
 
- .logo {
-    max-width: 250px !important;
- }
+ /*.logo {*/
+ /*   max-width: 250px !important;*/
+ /*}*/
