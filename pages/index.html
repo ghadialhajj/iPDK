@@ -22,13 +22,29 @@
 				Incorporating probabilistic domain knowledge into deep multiple instance learning
                 </h1>
                 <p class="fs-4">
-				Ghadi S. Al Hajj, Aliaksandr Hubin, Chakravarthi Kanduri, Milena Pavlovic, Knut Dagestad Rand, Michael Widrich, Anne Schistad Solberg, Victor Greiff, Johan Pensar, Günter Klambauer, Geir Kjetil Sandve                 </p>
+				Ghadi S. Al Hajj, Aliaksandr Hubin, Chakravarthi Kanduri, Milena Pavlovic, Knut Rand, Michael Widrich, Anne Solberg, Victor Greiff, Johan Pensar, Günter Klambauer, Geir Kjetil Sandve                 </p>
                 <p class="fs-5">
-				The 41st International Conference on Machine Learning (ICML 2024)                </p>
+				The 41st International Conference on Machine Learning (ICML 2024)
+                </p>
             </article>
+
+        </div>
+        <hr style="border: none; height: 2px; border-top: 2px dashed gray;">
+
+        <div class="row">
+            <h2 class="display-6">Abstract</h2>
+            <p class="fst-italic">
+                Deep learning methods, including deep multiple instance learning methods, have been criticized for their limited ability to incorporate domain knowledge. A reason that knowledge incorporation is challenging in deep learning is that the models usually lack a mapping between their model components and the entities of the domain, making it a non-trivial task to incorporate probabilistic prior information. In this work, we show that such a mapping between domain entities and model components can be defined for a multiple instance learning setting and propose a framework <b>DeeMILIP</b> that encompasses multiple strategies to exploit this mapping for prior knowledge incorporation. We motivate and formalize these strategies from a probabilistic perspective. Experiments on an immune-based diagnostics case show that our proposed strategies allow to learn generalizable models even in settings with weak signals, limited dataset size, and limited compute.
+            </p>
+        </div>
+
+        <div class="row">
+            <hr style="border: none; height: 2px; border-top: 2px dashed gray;">
+            <h2 class="display-6">Proposed Strategies</h2>
             <img src="./images/DeeMILIP.png" class="rounded float-start" alt="DeeMILIP">
 
         </div>
+
         <hr style="border: none; height: 2px; border-top: 2px dashed gray;">
 
         <div class="row">
@@ -44,14 +60,6 @@
             <img src="./images/R3.png" class="center-block" alt="R3" style="width: 50%;">
         </div>
 
-
-        <div class="row">
-            <h2 class="display-6">Abstract</h2>
-            <p class="fst-italic">
-                Deep learning methods, including deep multiple instance learning methods, have been criticized for their limited ability to incorporate domain knowledge. A reason that knowledge incorporation is challenging in deep learning is that the models usually lack a mapping between their model components and the entities of the domain, making it a non-trivial task to incorporate probabilistic prior information. In this work, we show that such a mapping between domain entities and model components can be defined for a multiple instance learning setting and propose a framework <b>DeeMILIP</b> that encompasses multiple strategies to exploit this mapping for prior knowledge incorporation. We motivate and formalize these strategies from a probabilistic perspective. Experiments on an immune-based diagnostics case show that our proposed strategies allow to learn generalizable models even in settings with weak signals, limited dataset size, and limited compute.
-            </p>
-        </div>
-
         <div class="row">
             <h2 class="display-6">Important links</h2>
 
@@ -59,26 +67,26 @@
                 <thead>
                     <tr>
                         <th scope="col">
-                            <a class="icon-link" href="https://github.com/ghadialhajj/iPDK">
+                            <a class="icon-link" href="https://github.com/ghadialhajj/iPDK" target="_blank">
                                 <i class="bi-code" style="font-size: 2rem; color: cornflowerblue;"></i>
                                 Code
                             </a>
                         </th>
-                        <th scope="col">
+                        <!--<th scope="col">
                             <a class="icon-link" href="add">
                                 <i class="bi-files" style="font-size: 2rem; color: cornflowerblue;"></i>
                                 arXiv
                             </a>
-                        </th>
+                        </th> !-->
                         <th scope="col">
-                            <a class="icon-link" href="#">
+                            <a class="icon-link" href="https://icml.cc/virtual/2024/poster/34493" target="_blank">
                                 <i class="bi-paperclip" style="font-size: 2rem; color: cornflowerblue;"></i>
-                                ICML 2024 Proceedings
+                                ICML 2024 Poster
                             </a>
                         </th>
                         <th scope="col">
                             <a class="icon-link"
-                                href="https://openreview.net">
+                                href="https://openreview.net/forum?id=GfNyqrwECJ" target="_blank">
                                 <i class="bi-paperclip" style="font-size: 2rem; color: cornflowerblue;"></i>
                                 OpenReview
                             </a>
@@ -93,31 +101,124 @@
             <h2 class="display-6">Reference</h2>
 
             <pre class="citation"><code >
-@inproceedings{
-    AlHajj2024,
-    title={Incorporating probabilistic domain knowledge into deep multiple instance learning},
-    author={Al Hajj, Ghadi S. and Hubin, Aliaksandr and Kanduri, Chakravarthi and Pavlovic, Milena and Rand, Knut and Widrich, Michael and Solberg, Anne and Greiff, Victor and Pensar, Johan and Klambauer, Günter and Sandve, Geir Kjetil
-},
-    booktitle={The 41st International Conference on Machine Learning ({ICML 2024})},
-    year={2024},
-    url={todo}
-}
+            @inproceedings{
+            hajj2024incorporating,
+            title={Incorporating probabilistic domain knowledge into deep multiple instance learning},
+            author={Ghadi S. Al Hajj and Aliaksandr Hubin and Chakravarthi Kanduri and Milena Pavlovic and Knut Dagestad Rand and Michael Widrich and Anne Schistad Solberg and Victor Greiff and Johan Pensar and G{\"u}nter Klambauer and Geir Kjetil Sandve},
+            booktitle={Forty-first International Conference on Machine Learning},
+            year={2024},
+            url={https://openreview.net/forum?id=GfNyqrwECJ}
+            }
             </code></pre>
 
         </div>
 
         <div class="row">
             <h2 class="display-6">Authors</h2>
+        </div>
+
+        <div class="row">
             <div class="col">
                 <div class="span4"></div>
                 <div class="span4">
-                    <img class="author-profile-images center-block img-thumbnail rounded-circle"
-                        src="./images/ghadi.jpg" />
+                    <img class="author-profile-images center-block img-thumbnail rounded-circle" src="./images/ghadi.jpg" />
                     <p class="text-center">Ghadi S. Al Hajj</p>
                 </div>
                 <div class="span4"></div>
             </div>
 
+            <div class="col">
+                <div class="span4"></div>
+                <div class="span4">
+                    <img class="author-profile-images center-block img-thumbnail rounded-circle" src="./images/Aliaksandr.jpg" />
+                    <p class="text-center">Aliaksandr Hubin</p>
+                </div>
+                <div class="span4"></div>
+            </div>
+
+            <div class="col">
+                <div class="span4"></div>
+                <div class="span4">
+                    <img class="author-profile-images center-block img-thumbnail rounded-circle" src="./images/chakri.jpg" />
+                    <p class="text-center">Chakravarthi Kanduri</p>
+                </div>
+                <div class="span4"></div>
+            </div>
+
+            <div class="col">
+                <div class="span4"></div>
+                <div class="span4">
+                    <img class="author-profile-images center-block img-thumbnail rounded-circle" src="./images/milena.jpg" />
+                    <p class="text-center">Milena Pavlovic</p>
+                </div>
+                <div class="span4"></div>
+            </div>
+
+            <div class="col">
+                <div class="span4"></div>
+                <div class="span4">
+                    <img class="author-profile-images center-block img-thumbnail rounded-circle" src="./images/knut.png" />
+                    <p class="text-center">Knut Rand</p>
+                </div>
+                <div class="span4"></div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="span4"></div>
+                <div class="span4">
+                    <img class="author-profile-images center-block img-thumbnail rounded-circle" src="./images/widi.jpeg" />
+                    <p class="text-center">Michael Widrich</p>
+                </div>
+                <div class="span4"></div>
+            </div>
+
+            <div class="col">
+                <div class="span4"></div>
+                <div class="span4">
+                    <img class="author-profile-images center-block img-thumbnail rounded-circle" src="./images/anne.jpg" />
+                    <p class="text-center">Anne Solberg</p>
+                </div>
+                <div class="span4"></div>
+            </div>
+
+            <div class="col">
+                <div class="span4"></div>
+                <div class="span4">
+                    <img class="author-profile-images center-block img-thumbnail rounded-circle" src="./images/victor.jpg" />
+                    <p class="text-center">Victor Greiff</p>
+                </div>
+                <div class="span4"></div>
+            </div>
+
+            <div class="col">
+                <div class="span4"></div>
+                <div class="span4">
+                    <img class="author-profile-images center-block img-thumbnail rounded-circle" src="./images/johan.jpg" />
+                    <p class="text-center">Johan Pensar</p>
+                </div>
+                <div class="span4"></div>
+            </div>
+
+            <div class="col">
+                <div class="span4"></div>
+                <div class="span4">
+                    <img class="author-profile-images center-block img-thumbnail rounded-circle" src="./images/gunter.png" />
+                    <p class="text-center">Günter Klambauer</p>
+                </div>
+                <div class="span4"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="span4"></div>
+                <div class="span4">
+                    <img class="author-profile-images center-block img-thumbnail rounded-circle" src="./images/geir.jpg" />
+                    <p class="text-center">Geir Kjetil Sandve</p>
+                </div>
+                <div class="span4"></div>
+            </div>
         </div>
 
         <div class="row">
@@ -133,7 +234,11 @@
                 <thead>
                     <tr>
                         <th scope="col">
-                            <img class="logo center-block" src="./images/04_uio_full_logo_no_pos.svg" style="width: 300px;" />
+                            <img class="logo center-block" src="./images/04_uio_full_logo_no_pos.svg" style="width: 400px;" />
+                        </th>
+
+                        <th scope="col">
+                            <img class="logo center-block" src="./images/nmbu.png" style="width: 400px;" />
                         </th>
 
                         <th scope="col">
